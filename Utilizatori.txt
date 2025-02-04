@@ -1,0 +1,14 @@
+user
+nume:Sergiu
+jocuri:1
+castigate:0
+prima:0
+doua:0
+treia:0
+patra:0
+cincea:0
+sasea:0
+castiguri:0
+max_castiguri:0
+nivel_greu:0
+enduser
