@@ -120,6 +120,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -143,25 +144,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DataUser.cpp" />
-    <ClCompile Include="InterfataAplicatie.cpp" />
-    <ClCompile Include="InterfataWordle.cpp" />
-    <ClCompile Include="ProgramareC.cpp" />
-    <ClCompile Include="TesteWordle.cpp" />
-    <ClCompile Include="Wordle.cpp" />
+    <ClCompile Include="src/DataUser.cpp" />
+    <ClCompile Include="src/InterfataAplicatie.cpp" />
+    <ClCompile Include="src/InterfataWordle.cpp" />
+    <ClCompile Include="src/ProgramareC.cpp" />
+    <ClCompile Include="src/TesteWordle.cpp" />
+    <ClCompile Include="src/Wordle.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="BaseCuvinte.txt" />
-    <Text Include="Cuvinte.txt" />
+    <Text Include="resources/BaseCuvinte.txt" />
+    <Text Include="resources/Cuvinte.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TestDataWordle.h" />
-    <ClInclude Include="UserData.h" />
-    <ClInclude Include="InterfataAplicatie.h" />
-    <ClInclude Include="resource.h" />
-    <ClInclude Include="GameResults.h" />
-    <ClInclude Include="TestsWordle.h" />
-    <ClInclude Include="Wordle.h" />
+    <ClInclude Include="include/TestDataWordle.h" />
+    <ClInclude Include="include/UserData.h" />
+    <ClInclude Include="include/InterfataAplicatie.h" />
+    <ClInclude Include="include/resource.h" />
+    <ClInclude Include="include/GameResults.h" />
+    <ClInclude Include="include/TestsWordle.h" />
+    <ClInclude Include="include/Wordle.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ProgramareC.rc" />

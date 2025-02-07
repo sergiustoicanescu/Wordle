@@ -20,7 +20,7 @@ void SchimbareSirInLiteraMica(char sir[]) {
 void CitireCuvinte(char cuvinte[][6]) {
   FILE* fptr;
   errno_t err;
-  if ((err = fopen_s(&fptr, "Cuvinte.txt", "r+")) != 0) {
+  if ((err = fopen_s(&fptr, "resources/Cuvinte.txt", "r+")) != 0) {
     exit(1);
   }
   char l[6] = {};
@@ -34,7 +34,7 @@ void CitireCuvinte(char cuvinte[][6]) {
 void CitireCuvintePentruVerificare(char cuvinte_pentru_verificare[][6], int& index) {
   FILE* fptr;
   errno_t err;
-  if ((err = fopen_s(&fptr, "BaseCuvinte.txt", "r+")) != 0) {
+  if ((err = fopen_s(&fptr, "resources/BaseCuvinte.txt", "r+")) != 0) {
     exit(1);
   }
   char l[6] = {};
